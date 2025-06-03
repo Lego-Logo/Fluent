@@ -198,3 +198,22 @@ function TabModule:SelectTab(Tab)
 end
 
 return TabModule
+
+function Tab:AddDropdown(Config)
+	local Elements = require(Root.Elements)
+	local Library = require(Root)
+
+	local Dropdown = Elements:Dropdown({
+		Title = Config.Title,
+		Values = Config.Values,
+		Default = Config.Default,
+		Callback = Config.Callback,
+		Description = Config.Description,
+		Multi = Config.Multi
+	})
+
+	Dropdown.Frame.Parent = self.Container
+	Library.Options[Config.Flag or Config.Title] = Dropdown
+
+	return Dropdown
+end
