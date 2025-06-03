@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <img src="Assets/logodark.png#gh-dark-mode-only" alt="fluent">
 <img src="Assets/logolight.png#gh-light-mode-only" alt="fluent">
 
@@ -28,3 +29,6 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 - [violin-suzutsuki/LinoriaLib](https://github.com/violin-suzutsuki/LinoriaLib) - Code for most of the elements, save manager
 - [7kayoh/Acrylic](https://github.com/7kayoh/Acrylic) - Porting richie0866's acrylic module to lua
 - [Latte Softworks & Kotera](https://discord.gg/rMMByr4qas) - Bundler
+=======
+# Fluent
+>>>>>>> 5dd9cb02fcf5f35506153e3991c7761285587a4b
